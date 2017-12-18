@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 舵机与电机控制仿真 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\benz\AppData\Local\Temp\RSPD31C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/舵机与电机控制仿真.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\飞思卡尔\vc仿真、\vc\舵机与电机控制仿真\控制.c"
+]
+Creating command line "cl.exe @C:\Users\benz\AppData\Local\Temp\RSPD31C.tmp" 
+Creating temporary file "C:\Users\benz\AppData\Local\Temp\RSPD31D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/舵机与电机控制仿真.pdb" /debug /machine:I386 /nodefaultlib /out:"Debug/舵机与电机控制仿真.exe" /pdbtype:sept 
+".\Debug\读取.obj"
+".\Debug\控制.obj"
+".\Debug\主.obj"
+]
+Creating command line "link.exe @C:\Users\benz\AppData\Local\Temp\RSPD31D.tmp"
+<h3>Output Window</h3>
+Compiling...
+控制.c
+Linking...
+控制.obj : error LNK2005: _G_car_find_line already defined in 读取.obj
+控制.obj : error LNK2005: _G_CAR_SPEED_temp already defined in 读取.obj
+控制.obj : error LNK2005: _G_CAR_SPEED already defined in 读取.obj
+控制.obj : error LNK2005: _car_info_new already defined in 读取.obj
+控制.obj : error LNK2005: _car_info_old already defined in 读取.obj
+主.obj : error LNK2005: _G_car_find_line already defined in 读取.obj
+主.obj : error LNK2005: _G_CAR_SPEED_temp already defined in 读取.obj
+主.obj : error LNK2005: _G_CAR_SPEED already defined in 读取.obj
+主.obj : error LNK2005: _car_info_new already defined in 读取.obj
+主.obj : error LNK2005: _car_info_old already defined in 读取.obj
+读取.obj : error LNK2001: unresolved external symbol _fgetc
+读取.obj : error LNK2001: unresolved external symbol __chkesp
+控制.obj : error LNK2001: unresolved external symbol __chkesp
+主.obj : error LNK2001: unresolved external symbol __chkesp
+控制.obj : error LNK2001: unresolved external symbol _fprintf
+主.obj : error LNK2001: unresolved external symbol _fprintf
+控制.obj : error LNK2001: unresolved external symbol _abs
+主.obj : error LNK2001: unresolved external symbol _fclose
+主.obj : error LNK2001: unresolved external symbol _printf
+主.obj : error LNK2001: unresolved external symbol _fopen
+LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+Debug/舵机与电机控制仿真.exe : fatal error LNK1120: 8 unresolved externals
+执行 link.exe 时出错.
+
+
+
+<h3>Results</h3>
+舵机与电机控制仿真.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

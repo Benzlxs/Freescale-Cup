@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sim_Test_bnezli - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Sim_Test_bnezli.res" /d "_DEBUG" /d "_AFXDLL" "F:\飞思卡尔\vc仿真、\绘制曲线的工程文件\速度——舵机——中心线\Sim_Test_bnezli.rc"" 
+Creating temporary file "C:\Users\benz\AppData\Local\Temp\RSP8072.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Sim_Test_bnezli.pdb" /debug /machine:I386 /out:"Debug/Sim_Test_bnezli.exe" /pdbtype:sept 
+".\Debug\Sim_Test_bnezli.obj"
+".\Debug\Sim_Test_bnezliDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Sim_Test_bnezli.res"
+]
+Creating command line "link.exe @C:\Users\benz\AppData\Local\Temp\RSP8072.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+Sim_Test_bnezli.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
