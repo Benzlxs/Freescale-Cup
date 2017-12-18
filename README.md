@@ -3,8 +3,8 @@ I participated in the 7th Freescale Cup: Intelligent Car Racing in 2012 and wrot
 
 ![The intelligent car](image/IMG_3198.JPG)
 
-# Introduction of code
-In this competition, a CMOS camera was used to capture track, and a 16-bits microcontroller was employed to process input data (e.g. track extraction and track classification) and outputted controlling signals. The code is written with C, and run in the microcontroller [**MC9S12XS128**](https://www.nxp.com/docs/en/product-brief/MC9S12XS256PB.pdf)
+# Introduction of system
+The code is written with C, and run in the microcontroller [**MC9S12XS128**](https://www.nxp.com/docs/en/product-brief/MC9S12XS256PB.pdf). In this competition, a CMOS camera whose type is ov7620, was used to capture track, and a 16-bits microcontroller was employed to process input data (e.g. track extraction and track classification) and outputted controlling signals. The car model is specified by sponsors, so are steering and speed motors.
 ![The intelligent car](image/IMG_3080.JPG)
-# Introduction of aglorithm
+
 
